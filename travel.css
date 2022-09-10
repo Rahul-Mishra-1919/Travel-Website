@@ -1,0 +1,224 @@
+/* #########################-----------------Utility Classes--------------------------------######################################### */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* #########################---------------------Header--------------------------------######################################### */
+
+.hero{
+    background-image: url("./travel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    max-width: 100vw;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.logo{
+    color: rgb(235, 222, 222);
+    font-size: 22px;
+}
+
+.nav a{
+
+    display: inline-block;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding-left: 2.2rem;
+    text-transform: uppercase;
+    width: 10rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 3rem;
+
+}
+
+.nav a:hover{
+
+    border-bottom: 0.2rem solid whitesmoke;
+}
+
+.content{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25vh;
+    text-transform: uppercase;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.button{
+
+    background-color:  whitesmoke;
+    color: rgb(240, 81, 23);    
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    padding: 2px 30px;
+    margin-top: 5vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.button:hover{
+
+    background-color: transparent;
+    color: rgb(240, 81, 23);
+}
+
+
+/* #####################-----------------Section---------############################################## */
+
+
+.main{
+    /* margin: 20px 220px 20px 0px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-color: rgb(236, 242, 249);
+    padding-top: 50px;
+}
+.State{
+ margin: 0px 100px 20px 200px;
+          
+}
+
+.more{
+    border: 1px solid rgb(105, 7, 7);
+    border-radius: 20px;
+    padding: 2px 15px;
+    background: none;
+}
+
+.more a{
+    color: black;
+    text-decoration: none;
+}
+.more:hover{
+    background-color: antiquewhite;
+    color: brown;
+    padding: 5px 25px;
+}
+
+
+.-img{
+
+    width: 35vw;
+    height: 20vw;        
+    /* border: 5px solid #ffc800e4; */  
+    border-radius: 20px;
+    float: left;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(232, 235, 238);
+}
+
+.-text{
+
+    width: 35vw;
+    height: 20vw; 
+    float: left;
+    padding: .05em 2em;
+    font-size: 1.6em;
+    letter-spacing: .06em;
+    
+
+}
+
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+.extra{
+
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box{
+     
+    margin: 50px 5px ;
+    padding: 5px 10px 20px 5px;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    box-shadow: 20px 20px 20px 20px rgb(227, 227, 201);
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+.box:hover{
+    background-color: yellowgreen;
+}
+
+.box1{
+    
+    background-color: #a40606;
+    background-image: linear-gradient(315deg,#d98324 74% #e20a0a 0%, );    
+}
+
+.box2{
+    /* background-color: #ff4e00;
+    
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+    background-color: #FF4E00;
+}
+
+.box3{
+
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+    background-color:  #d55c00a0;
+}
+
+.footer{
+
+    font-family: 'Uchen', serif;
+    color: antiquewhite;
+    padding: 10px;
+    background-color: rgb(240, 81, 23);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .5px;
+    font-size: 14px;
+
+}
+
+.social-media{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    text-align: center;
+    font-size:18px;
+    line-height: 10px;
+
+}
+/* #####################################---------------Media Queries------------------------############################################### */
+/* #####################################---------------Media Queries------------------------############################################### */
+/* #####################################---------------Media Queries------------------------############################################### */
+
+@media (max-width: 500px){
+
+}
